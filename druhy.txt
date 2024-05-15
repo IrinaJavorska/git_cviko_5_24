@@ -39,3 +39,5 @@ Date:   Wed May 15 08:29:09 2024 +0200
 
     uvidni commit - vytvoren projekt
 
+function dbsave {
+}
