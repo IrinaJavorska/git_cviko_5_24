@@ -1,0 +1,41 @@
+
+trido@Elitebook MINGW64 ~/OneDrive/Documents/GIT/git_cviko
+$ ls
+
+trido@Elitebook MINGW64 ~/OneDrive/Documents/GIT/git_cviko
+$ touch soubor1
+
+trido@Elitebook MINGW64 ~/OneDrive/Documents/GIT/git_cviko
+$ git init
+Initialized empty Git repository in C:/Users/trido/OneDrive/Documents/GIT/git_cviko/.git/
+
+trido@Elitebook MINGW64 ~/OneDrive/Documents/GIT/git_cviko (master)
+$ touch treti.txt
+
+trido@Elitebook MINGW64 ~/OneDrive/Documents/GIT/git_cviko (master)
+$ echo "ctvrty soubor" > ctvrty.txt
+
+trido@Elitebook MINGW64 ~/OneDrive/Documents/GIT/git_cviko (master)
+$ git config --global user.name "Irina"
+
+trido@Elitebook MINGW64 ~/OneDrive/Documents/GIT/git_cviko (master)
+$ git config --global user.email "alaeva.irina@yahoo.com"
+trido@Elitebook MINGW64 ~/OneDrive/Documents/GIT/git_cviko (master)
+$ git add .
+warning: in the working copy of 'ctvrty.txt', LF will be replaced by CRLF the next time Git touches it
+
+trido@Elitebook MINGW64 ~/OneDrive/Documents/GIT/git_cviko (master)
+$ git commit -m "uvidni commit - vytvoren projekt"
+[master (root-commit) ada6d0d] uvidni commit - vytvoren projekt
+ 3 files changed, 1 insertion(+)
+ create mode 100644 ctvrty.txt
+ create mode 100644 soubor1
+ create mode 100644 treti.txt
+trido@Elitebook MINGW64 ~/OneDrive/Documents/GIT/git_cviko (master)
+$ git log
+commit ada6d0d17b463a96cdab8652d075f31ddff05e51 (HEAD -> master)
+Author: Irina <alaeva.irina@yahoo.com>
+Date:   Wed May 15 08:29:09 2024 +0200
+
+    uvidni commit - vytvoren projekt
+
